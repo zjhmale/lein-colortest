@@ -5,7 +5,8 @@
       [bultitude.core :as b]
       [leiningen.core.eval :as eval]
       [leiningen.core.main :as main]
-      [leiningen.core.project :as project])
+      [leiningen.core.project :as project]
+      [jansi-clj.core :refer :all])
     (:import (java.io File PushbackReader)))
 
 (def ^:dynamic *exit-after-tests* true)
@@ -85,11 +86,11 @@
                                                                     (fn [_#]
                                                                         (update-in @failures# [ns-name#] (fnil conj []) test-name#)))
                                                              (newline)
-                                                             (println "lein test :only" (str ns-name# "/" test-name#)))))
+                                                             (println (blue "lein colortest :only" (str ns-name# "/" test-name#))))))
                                         (if (= :begin-test-ns (:type m#))
                                           (acolfut.sweet/with-test-out
                                             (newline)
-                                            (println "lein test" (ns-name (:ns m#))))
+                                            (println (green "lein colortest" (ns-name (:ns m#)))))
                                           (apply report# m# args#)))))
                          summary# (binding [acolfut.sweet/*test-out* *out*]
                                            (~form-for-suppressing-unselected-tests
