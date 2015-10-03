@@ -2,6 +2,8 @@
 
 A Leiningen plugin to work with [acolfut](https://github.com/zjhmale/acolfut).
 
+[![Clojars Project](http://clojars.org/lein-colortest/latest-version.svg)](http://clojars.org/lein-colortest)
+
 ## Usage
 
 * Use this for user-level plugins:
