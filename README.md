@@ -1,4 +1,4 @@
-# colortest
+## lein-colortest
 
 A Leiningen plugin to work with [acolfut](https://github.com/zjhmale/acolfut).
 
@@ -18,11 +18,19 @@ Put `[colortest "0.1.0"]` in `~/.lein/profiles.clj`.
 
 Put `[colortest "0.1.0"]` into the `:plugins` vector of your `project.clj`.
 
+* work with acolfut
+
+Put `[acolfut "0.1.0"]` into the `:dependencies` vector of your `project.clj`.
+
 * And just run the cmd to use it
 
 ```
 $ lein colortest
 ```
+
+## Snapshot
+
+![cleantha](./snapshot/colortest.png)
 
 ## License
 
