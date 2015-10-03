@@ -1,4 +1,4 @@
-## lein-colortest
+## Lein-Colortest
 
 A Leiningen plugin to work with [acolfut](https://github.com/zjhmale/acolfut).
 
