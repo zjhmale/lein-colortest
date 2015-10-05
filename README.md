@@ -8,15 +8,15 @@ A Leiningen plugin to work with [acolfut](https://github.com/zjhmale/acolfut).
 
 * Use this for user-level plugins:
 
-Put `[lein-colortest "0.1.0"]` in `~/.lein/profiles.clj`.
+Put `[lein-colortest "0.3.0"]` in `~/.lein/profiles.clj`.
 
 ```clojure
-{:user {:plugins [[lein-colortest "0.1.0"]]}}
+{:user {:plugins [[lein-colortest "0.3.0"]]}}
 ```
 
 * Use this for project-level plugins:
 
-Put `[lein-colortest "0.1.0"]` into the `:plugins` vector of your `project.clj`.
+Put `[lein-colortest "0.3.0"]` into the `:plugins` vector of your `project.clj`.
 
 * work with acolfut
 
