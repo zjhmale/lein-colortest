@@ -20,7 +20,7 @@ Put `[lein-colortest "0.3.0"]` into the `:plugins` vector of your `project.clj`.
 
 * work with acolfut
 
-Put `[acolfut "0.3.0"]` into the `:dependencies` vector of your `project.clj`.
+Put `[acolfut "0.3.3"]` into the `:dependencies` vector of your `project.clj`.
 
 * And just run the cmd to use it
 
